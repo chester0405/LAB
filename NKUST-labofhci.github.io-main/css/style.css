@@ -1118,6 +1118,7 @@ and (max-width : 480px) {
 	padding: 30px 35px 45px 35px;
 	margin-bottom: 30px;
 	border: 1px solid rgba(129, 129, 129, 0.1);
+	height: 350px;
   }
   .card:before,
   .card:after {
@@ -1145,7 +1146,7 @@ and (max-width : 480px) {
 	-webkit-transform: scaleY(1);
   }
 
- 	.card {
+ 	/* .card {
 	background: #ffffff;
 	padding: 30px 35px 45px 35px;
 	margin-bottom: 30px;
@@ -1175,7 +1176,7 @@ and (max-width : 480px) {
   .card:hover:after,
   .card:hover:before {
 	-webkit-transform: scaleY(1);
-  }
+  } */
 
 /*----- background ------*/
 .grey-bg {
@@ -1229,7 +1230,12 @@ and (max-width : 480px) {
   }
   .text-detail {
 	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:flex-start;
 	color: #2e2525;
+	height: 200px;
   }
 
   .skillst {margin-top: 30px;}
